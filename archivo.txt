@@ -1,1 +1,2 @@
 ok vamos a empezar a hacer modificaciones
+ok ya hemos eliminado para no subir el commit
