@@ -1,0 +1,14 @@
+Eliminar archivos
+$git rm --cached: Elimina los archivos que estén en staging.
+$git rm --force: Elimina los archivos tanto de Git como en el disco duro.
+
+Comparar commits de archivos
+$git diff commit1 commit2.
+
+Volver a versiones anteriores del archivo
+$git reset --soft: Elimina las versiones posteriores a la que queremos volver, sin embargo, los archivos staging siguen intactos.
+$git reset --hard: Elimina las versiones posteriores a la que queremos volver, incluyendo los archivos staging.
+$git reset HEAD: Hace que los archivos staging se vuelvan unstaged.
+$git checkout: Al contrario de los $git reset, este es solo darle un vistazo a como era el archivo, ya que no elimina los comits, hay dos formas de usarlo:
+1)$git checkout ID DEL COMMIT NOMBRE DEL ARCHIVO: vuelves a la versión anterior, puedes hacer que esa versión sea la última usando $git add.
+2)$git checkout master: Hace que volvamos a la versión del último commit.
