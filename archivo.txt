@@ -1,3 +1,7 @@
 ok vamos a empezar a hacer modificaciones
+<<<<<<< HEAD
 ok ya hemos eliminado para no subir el commitggit
 Hablemos obre su vida y su maestría
+=======
+ok ya hemos eliminado para no subir el commit
+>>>>>>> 36066981acdef404acdb8cbf654d59c3ecb90b12
